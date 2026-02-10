@@ -72,9 +72,7 @@ https://mental-raychel-ovian-066274f9.koyeb.app/aZ93Kq
 `POST /api/encode`
 
 ```bash
-curl -X POST https://mental-raychel-ovian-066274f9.koyeb.app/api/encode \
-  -H "Content-Type: application/json" \
-  -d '{"url":"https://example.com"}'
+curl -X POST https://mental-raychel-ovian-066274f9.koyeb.app/encode   -H "Content-Type: application/json"   -d '{"url":"https://google.com"}'
 ```
 
 **Response**
@@ -97,7 +95,7 @@ curl -X POST https://mental-raychel-ovian-066274f9.koyeb.app/api/encode \
 `POST /api/decode`
 
 ```bash
-curl -X POST https://mental-raychel-ovian-066274f9.koyeb.app/api/decode \
+curl -X POST https://mental-raychel-ovian-066274f9.koyeb.app/decode \
   -H "Content-Type: application/json" \
   -d '{"short_url":"https://mental-raychel-ovian-066274f9.koyeb.app/aZ93Kq"}'
 ```
