@@ -69,7 +69,7 @@ https://mental-raychel-ovian-066274f9.koyeb.app/aZ93Kq
 
 ### 🔹 Encode URL
 
-`POST /api/encode`
+`POST /encode`
 
 ```bash
 curl -X POST https://mental-raychel-ovian-066274f9.koyeb.app/encode   -H "Content-Type: application/json"   -d '{"url":"https://google.com"}'
@@ -92,7 +92,7 @@ curl -X POST https://mental-raychel-ovian-066274f9.koyeb.app/encode   -H "Conten
 
 ### 🔹 Decode URL
 
-`POST /api/decode`
+`POST /decode`
 
 ```bash
 curl -X POST https://mental-raychel-ovian-066274f9.koyeb.app/decode \
